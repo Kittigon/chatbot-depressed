@@ -1,0 +1,153 @@
+.Question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.userinfo,.Quiz,.Score{
+    width: 500px;
+    height: 550px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form label{
+    margin: 10px 0;
+    font-size:16px;
+}
+
+.form input{
+    padding: 1rem;
+    font-size:16px;
+    outline: none;
+    border: none;
+}
+h3{
+    margin-top: 10px; 
+}
+
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.btn{
+    padding: 1rem;
+    width: 30%;
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.btn-start{
+    padding: 1rem;
+    width: 30%;
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.choice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 1rem;
+    margin: 10px;
+    width: 80%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.queslength{
+    margin-top: 50px;
+}
+
+h4{
+    margin-top: 70px ;
+}
+
+.score-user{
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    margin: 70px 100px;
+}
+
+/* Appoinmentform */
+.Appoinmentform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.form-appoinment{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.form-appoinment label{
+    text-align: left;
+    margin:10px ;
+}
+
+.form-appoinment input{
+    padding: 1rem;
+    outline: none;
+    border: none
+}
+
+.form-appoinment select{
+    padding: 1rem;
+    outline: none;
+    border: none;
+}
+
+.form-appoinment button{
+    width: 95%;
+    margin-top:20px ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+.Evaluation h1{
+    margin:20px;
+}
+
+.Evaluation-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:10px 30px ;
+    padding: 20px;
+}
+
+.Singleevaluetion{
+    padding: 1rem 1.5rem;
+    border: 1px solid #eae6ea;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2)
+}
+.Singleevaluetion-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: right 20px; ;
+    height: 60px;
+}
+

@@ -1,0 +1,26 @@
+.History h1{
+    margin:20px;
+}
+
+.history-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:10px 30px ;
+    padding: 1rem 1.5rem;
+}
+
+.items-history{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 10px;
+    padding: 10px 20px ;
+    border-radius: 5px;
+    height: 80px ;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2)
+}
+
+.items-history span{
+    margin: 0 20px;
+}
