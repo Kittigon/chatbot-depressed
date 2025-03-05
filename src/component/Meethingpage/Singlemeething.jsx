@@ -1,7 +1,6 @@
 import { useState } from "react"
 // import axios from 'axios'
-
-
+//  import ....
 
 
 const Singlemeething=({  code ,fname , lname , date ,time})=>{
@@ -17,7 +16,7 @@ const Singlemeething=({  code ,fname , lname , date ,time})=>{
     //             }
     //         })
     //         .catch((err)=>console.log(err))
-    // }
+    // } /
 
     return(
         <div className="Singlemeething">
